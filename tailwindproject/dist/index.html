@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b81f0aabf7.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body class="bg-black">
+
+    <div class="h-[270px] w-full flex flex-col justify-between items-center relative">
+        <div class=" absolute inset-0 bg-[url('under-nav.jpg')] bg-no-repeat bg-center bg-cover">
+            <div class="w-full fixed top-0 border-b border-solid  border-gray-500  bg-black ">
+                <div class="
+                        w-[80%]
+                        mobile:w-[100%] mobile:justify-between  mobile:text-[17px]
+                        flex flex-row justify-evenly  items-center mx-auto text-white h-14 ">
+
+                    <div class="w-[90%] p-4 font-bold text-[22px]
+                    mobile:text-[19px]">
+                        <a href="#">Documentation </a>
+                    </div>
+                    <div class="w-[82%] font-semibold mobile:hidden">
+                        <ul class="flex flex-row justify-end items-center text-sm">
+                            <li class="mx-4">
+                                <a href="#" class="hover:text-blue-400">
+                                    Featured
+                                </a>
+                            </li>
+                            <li>
+                                <span class="text-gray-400">
+                                    Technologies
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class=" hidden navIcon mobile:flex justify-center mobile:w-1/5  text-white">
+                        <i class=" i fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="mobile-menu w-full h-[130px] hidden mobile:hidden  bg-inherit">
+
+                    <div class="flex flex-col h-full justify-start mt-4 items-start w-[75%] text-[17px] mx-auto">
+
+                        <a href="#" class="w-full my-2 border-b border-gray-200 hover:text-blue-400 text-gray-200">
+                            Featured
+                        </a>
+
+                        <span class="w-full text-gray-400">
+                            Technologies
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class=" flex flex-col justify-between items-center mt-[8rem] text-[3rem] font-bold text-white">
+                <h1>
+                    Technologies
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class=" searches border-b border-solid border-gray-600 text-gray-300 ">
+        <div
+            class="tablet:w-[90%]  h-max my-6 w-3/5 mx-auto flex flex-row justify-evenly items-center tablet:gap-3 mobile:flex-col">
+            <div
+                class="filter flex flex-col h-[70px] mobile:w-full w-[350px] justify-start items-center border border-solid border-gray-600 rounded-[20px] text-[1.5rem]">
+
+                <div class="part1-filter  flex px-2 items-center h-full w-full ">
+                    <div class="icon mx-2">
+                        <i class="fa fa-filter"></i>
+                    </div>
+                    <div class="text mobile:text-[16px]">
+                        <input class="bg-inherit search-input outline-none" type="text"
+                            placeholder="Filter on this page">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="api  h-[70px] w-[350px] flex flex-row justify-between px-5 items-center text-[1.5rem]
+                border border-solid border-gray-600 rounded-[20px] bg-[#1D1D1F] mobile:w-full mobile:text-[16px]">
+                <div class="text ">
+                    Show Api changes
+                </div>
+                <div class="icon ">
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards w-[58%] mx-auto mt-4  text-gray-400 tablet:w-[90%] ">
+        <h2 class="count">
+
+        </h2>
+    </div>
+
+
+
+    <div class="footer bg-[#1D1D1F] h-[full] text-gray-400">
+        <div class="w-[80%] mx-auto p-6 tablet:w-[95%] tablet:p-2">
+
+            <div class="row1  flex flex-row justify-start items-center gap-3 mobile:gap-1">
+                <div class="bg-[url('logo.png')] bg-cover bg-center h-4 w-4"></div>
+                <i class="fa fa-angle-down fa-rotate-270"></i>
+                <a href="#" class="hover:text-white hover:underline">Developer</a>
+                <i class="fa fa-angle-down fa-rotate-270"></i>
+                <h6>Documentation</h6>
+            </div>
+
+            <div class="row2 w-full mt-5 flex flex-row justify-between items-start mobile:flex-col">
+
+                <div class="column mobile:w-full">
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers  text-gray-200">Platforms</h6>
+                        <a href="#">iOS</a>
+                        <a href="#">iPadOS</a>
+                        <a href="#">macOS</a>
+                        <a href="#">tvOS</a>
+                        <a href="#">watchOS</a>
+                        <a href="#">visionOS</a>
+                    </div>
+
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Platforms</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">iOS</a>
+                            <a href="#">iPadOS</a>
+                            <a href="#">macOS</a>
+                            <a href="#">tvOS</a>
+                            <a href="#">watchOS</a>
+                            <a href="#">visionOS</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers text-gray-200">Vision</h6>
+                        <a href="#">Swift</a>
+                        <a href="#">SwiftUI</a>
+                        <a href="#">Swift Playgrounds</a>
+                        <a href="#">TestFlight</a>
+                        <a href="#">Xcode</a>
+                        <a href="#">XcodeCloud</a>
+                        <a href="#">SFsymbols</a>
+                    </div>
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Vision</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">Swift</a>
+                            <a href="#">SwiftUI</a>
+                            <a href="#">Swift Playgrounds</a>
+                            <a href="#">TestFlight</a>
+                            <a href="#">Xcode</a>
+                            <a href="#">XcodeCloud</a>
+                            <a href="#">SFsymbols</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column mobile:w-full">
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers  text-gray-200">Platforms</h6>
+                        <a href="#">iOS</a>
+                        <a href="#">iPadOS</a>
+                        <a href="#">macOS</a>
+                        <a href="#">tvOS</a>
+                        <a href="#">watchOS</a>
+                        <a href="#">visionOS</a>
+                    </div>
+
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Platforms</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">iOS</a>
+                            <a href="#">iPadOS</a>
+                            <a href="#">macOS</a>
+                            <a href="#">tvOS</a>
+                            <a href="#">watchOS</a>
+                            <a href="#">visionOS</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers text-gray-200">Vision</h6>
+                        <a href="#">Swift</a>
+                        <a href="#">SwiftUI</a>
+                        <a href="#">Swift Playgrounds</a>
+                        <a href="#">TestFlight</a>
+                        <a href="#">Xcode</a>
+                        <a href="#">XcodeCloud</a>
+                        <a href="#">SFsymbols</a>
+                    </div>
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Vision</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">Swift</a>
+                            <a href="#">SwiftUI</a>
+                            <a href="#">Swift Playgrounds</a>
+                            <a href="#">TestFlight</a>
+                            <a href="#">Xcode</a>
+                            <a href="#">XcodeCloud</a>
+                            <a href="#">SFsymbols</a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="column mobile:w-full">
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers  text-gray-200">Platforms</h6>
+                        <a href="#">iOS</a>
+                        <a href="#">iPadOS</a>
+                        <a href="#">macOS</a>
+                        <a href="#">tvOS</a>
+                        <a href="#">watchOS</a>
+                        <a href="#">visionOS</a>
+                    </div>
+
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Platforms</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">iOS</a>
+                            <a href="#">iPadOS</a>
+                            <a href="#">macOS</a>
+                            <a href="#">tvOS</a>
+                            <a href="#">watchOS</a>
+                            <a href="#">visionOS</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers text-gray-200">Vision</h6>
+                        <a href="#">Swift</a>
+                        <a href="#">SwiftUI</a>
+                        <a href="#">Swift Playgrounds</a>
+                        <a href="#">TestFlight</a>
+                        <a href="#">Xcode</a>
+                        <a href="#">XcodeCloud</a>
+                        <a href="#">SFsymbols</a>
+                    </div>
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Vision</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">Swift</a>
+                            <a href="#">SwiftUI</a>
+                            <a href="#">Swift Playgrounds</a>
+                            <a href="#">TestFlight</a>
+                            <a href="#">Xcode</a>
+                            <a href="#">XcodeCloud</a>
+                            <a href="#">SFsymbols</a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="column mobile:w-full">
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers  text-gray-200">Platforms</h6>
+                        <a href="#">iOS</a>
+                        <a href="#">iPadOS</a>
+                        <a href="#">macOS</a>
+                        <a href="#">tvOS</a>
+                        <a href="#">watchOS</a>
+                        <a href="#">visionOS</a>
+                    </div>
+
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Platforms</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start p-[13px]">
+                            <a href="#">iOS</a>
+                            <a href="#">iPadOS</a>
+                            <a href="#">macOS</a>
+                            <a href="#">tvOS</a>
+                            <a href="#">watchOS</a>
+                            <a href="#">visionOS</a>
+                        </div>
+                    </div>
+
+
+                    <div class="mobile:hidden">
+                        <h6 class="column-headers text-gray-200">Vision</h6>
+                        <a href="#">Swift</a>
+                        <a href="#">SwiftUI</a>
+                        <a href="#">Swift Playgrounds</a>
+                        <a href="#">TestFlight</a>
+                        <a href="#">Xcode</a>
+                        <a href="#">XcodeCloud</a>
+                        <a href="#">SFsymbols</a>
+                    </div>
+                    <div class="hidden mobile:flex mobile:flex-col h-max w-full">
+                        <div class="p1 flex flex-row justify-between items-center border-b border-gray-200">
+                            <h6 class="column-headers  text-gray-200">Vision</h6>
+                            <i class="p1icon fa-solid fa-plus"></i>
+                        </div>
+                        <div class="p2 hidden flex-col justify-start items-start">
+                            <a href="#">Swift</a>
+                            <a href="#">SwiftUI</a>
+                            <a href="#">Swift Playgrounds</a>
+                            <a href="#">TestFlight</a>
+                            <a href="#">Xcode</a>
+                            <a href="#">XcodeCloud</a>
+                            <a href="#">SFsymbols</a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+            <div
+                class="row3 mt-8 flex flex-row justify-between items-center border-b border-solid border-gray-600 text-[12px] mobile:flex-col mobile:items-start mobile:h-max ">
+
+                <h6 class="mobile:mb-4">To view the latest developer news, visit <a href="#" class="text-blue-500 font-bold ">News and
+                        Updates.</a></h6>
+
+                <div class="btn-modes mb-2 mobile:mb-5 flex items-center justify-center font-bold text-white">
+                    <input id="toggle" type="checkbox" class="hidden">
+                    <label for="toggle"
+                        class="text-[13px] flex flex-row justify-between items-center bg-inherit dark:bg-inherit border border-solid border-blue-500 w-[100px] h-5 rounded-full">
+                        <span id="darkModeText" class="flex flex-row justify-around items-center w-full h-full
+                            rounded-full dark:bg-blue-500 transition-transform transform">Dark</span>
+                        <span id="lightModeText" class="flex flex-row justify-around items-center w-full h-full
+                            transition-transform transform">Light</span>
+                    </label>
+                </div>
+
+            </div>
+            <div
+                class="row4  py-1 mt-1 h-max flex flex-row  justify-start items-center gap-5 mobile:gap-2 text-[13px] mobile:flex-col mobile:items-start">
+                <div>
+                    Copyright © 2023 <a href="#" class="hover:text-white hover:underline">Apple Inc.</a> All rights
+                    reserved.
+                </div>
+                <div class=" flex-row justify-evenly items-center  ">
+
+                    <a href="#" class="hover:text-white hover:underline">Terms of use</a>
+                    <a href="#"
+                        class=" hover:text-white hover:underline p-1 border-l border-r border-solid border-gray-400">Privacy
+                        Policy</a>
+                    <a href="#" class="hover:text-white hover:underline">Terms of Agreement</a>
+
+                    </d>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>

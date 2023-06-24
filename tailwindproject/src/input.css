@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .custom-li {
+      @apply pl-2 pr-2 h-7  bg-gray-500 text-white text-[12px] font-bold  mx-2  border border-solid border-white rounded-[10px];
+    }
+    .column{
+        @apply flex flex-col justify-between items-start text-sm leading-7;
+    }
+    .column a{
+        @apply flex flex-row justify-start hover:text-white hover:underline;
+    }
+    .column .column-headers{
+        @apply font-bold;
+    }
+
+
+
+  }
